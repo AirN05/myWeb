@@ -1,0 +1,87 @@
+body
+{
+	background-image: url(31.jpg);
+	background-attachment: fixed;
+}
+
+.logo 
+{
+	display: inline;
+	color: black;
+	font-size:50px;
+	font-family: fantasy;
+	text-align: left;
+}
+.up
+{
+	display: inline-block;
+	top: 3%;
+	right: 15%;
+	position: absolute;
+}
+ul.menu li
+{
+	
+	display: inline;
+    padding: 20px;
+	font-size: 40px;
+	background: #857d94;
+	font-family: fantasy;
+}
+
+ul.menu li:hover 
+{
+	border: 2px solid;
+	background: #b6afc3;
+	transition: 1s;
+}
+
+a
+{   
+    text-decoration:none;
+	color: black;
+}
+a.disabled 
+{
+    pointer-events: none;
+    color: white;
+}
+
+.button
+{
+	padding: 20px;
+	background: #f79f1b;
+	text-align: center;
+	font-size: 45px;
+	font-family: fantasy;
+	top: 40%;
+    left: 40%;
+	border: 2px solid;
+	border-radius: 5px;
+	position: absolute;
+}
+.button:hover
+{
+	background: #f3c683;
+	transition: 1s;
+}
+.text
+{
+	background: rgba(255, 255, 255, 0.6);
+	text-indent: 3%;
+	font-size: 23px;
+    font-family: "Consolas", sans-serif;
+	border: 2px solid;
+	padding: 10px;
+}
+
+.pic
+{
+	max-width:100%;
+    max-height:100%;
+}
+
+.list
+{
+	margin-left: 40%;
+}
