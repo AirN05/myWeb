@@ -1,7 +1,8 @@
 body
 {
-	background-image: url(31.jpg);
+	background-image: url(../pic/31.jpg);
 	background-attachment: fixed;
+	background-size: 100%;
 }
 
 .logo 
