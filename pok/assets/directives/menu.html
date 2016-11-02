@@ -1,0 +1,10 @@
+
+
+<div class="up">
+			<ul class="mainmenu" >
+			
+				<li ng-repeat="item in menu">
+        			<a href={{item.href}} class={{getClass(menu.indexOf(item))}}>{{item.title}}</a>
+    			</li>
+			</ul>
+</div>

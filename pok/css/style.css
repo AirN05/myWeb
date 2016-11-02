@@ -20,7 +20,7 @@ body
 	right: 15%;
 	position: absolute;
 }
-ul.menu li
+ul.mainmenu li
 {
 	
 	display: inline;
@@ -30,7 +30,7 @@ ul.menu li
 	font-family: fantasy;
 }
 
-ul.menu li:hover 
+ul.mainmenu li:hover 
 {
 	border: 2px solid;
 	background: #b6afc3;
@@ -86,3 +86,36 @@ a.disabled
 {
 	margin-left: 40%;
 }
+
+
+.table{
+
+    width: 60%;
+    margin: 0 auto;
+    
+}
+.table__header{
+    font-weight: 400;
+    width: 20%;
+    color:black;
+    cursor: pointer;
+    background: #857d94;
+}
+.table__header-active{
+    font-weight: 800;
+    color:white;
+
+}
+
+.pole{
+    position: absolute;
+    width: 95%;
+    height: 70%;
+    background: #0B580B;
+}
+
+.ball{
+    position: relative;
+    width: 4em;
+    height: 4em;
+    }
