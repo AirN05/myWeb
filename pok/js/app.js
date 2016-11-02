@@ -32,14 +32,7 @@ app.config(function($routeProvider) {
         $http.get('?controller=menu')
             .success(function(data, status, headers, config){
                  $scope.menu = data;
-                 $log.log(status);})
-
-         $scope.getClass=function($item){ ///взяла кусок кода функции у Юли, ей плюшки^^
-            if ($scope.page-1==$item)
-                return ("disabled");
-            
-        };
-    
+                 $log.log(status);})  
 }
 }})
 
