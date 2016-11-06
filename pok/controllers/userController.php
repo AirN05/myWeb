@@ -15,11 +15,13 @@ class userController extends Controller {
 	}
 
 	public function add(){
+
+		$_POST=json_decode(file_get_contents('php://input'), TRUE);
 		
-		if((isset($_POST['id']))&&(isset($_POST['name']))&&(isset($_POST['score']))){
+		if((isset($_POST['name']))&&(isset($_POST['score']))){
 			// мы передаем в модель массив с данными
 			// модель должна вернуть boolean
-			$dataToSave=array('id'=>$_POST['id'], 'name'=>$_POST['name'], 'score'=>$_POST['score'] );
+			$dataToSave=array('name'=>$_POST['name'], 'score'=>$_POST['score'] );
 			$addedItem=$this->model->create($dataToSave);
 			$this->setResponce($addedItem);
 		}

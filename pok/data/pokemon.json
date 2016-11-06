@@ -1,3 +1,4 @@
-[{ "name":"Бульбазавр", "image":"bulb.png", "power":"6", "speed":"55", "size": "3"},
-{"name":"Вульпикс", "image":"vulp.png", "power":"7", "speed":"75",  "size": "5"},
-{"name":"Pikachu", "image":"pika.png", "power":"10", "speed":"77",  "size": "8"}]
+[{"name":"Бульбазавр", "image":"bulb.png", "power":"30", "speed":"55", "size": "3"},
+{"name":"Вульпикс", "image":"vulp.png", "power":"30", "speed":"75",  "size": "5"},
+{"name":"Pikachu", "image":"pika.png", "power":"40", "speed":"77",  "size": "8"},
+{"name":"Сквиртл", "image":"sq.png", "power":"50", "speed":"80",  "size": "9"}]

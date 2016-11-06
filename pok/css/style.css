@@ -110,12 +110,43 @@ a.disabled
 .pole{
     position: absolute;
     width: 95%;
-    height: 70%;
-    background: #0B580B;
+    height: 80%;
+    background-image: url(../pic/pole.jpg);
+   	background-size: cover;
 }
+
 
 .ball{
     position: relative;
     width: 4em;
     height: 4em;
-    }
+   }
+
+
+.param{
+
+	color: black;
+	background: rgba(255, 255, 255, 0.6);
+	font-size: 1em;
+	font-family: "Century Gothic", sans-serif;
+	font-weight: 700;
+}
+
+.button__start{
+	background: #f79f1b;
+	color: black;
+	font-size: 1em;
+	font-family: "Century Gothic", sans-serif;
+	font-weight: 700;
+}
+
+
+.button__ok{
+
+	background: #857d94;
+	color: black;
+	font-size: 1em;
+	font-family: "Century Gothic", sans-serif;
+	font-weight: 700;
+
+}

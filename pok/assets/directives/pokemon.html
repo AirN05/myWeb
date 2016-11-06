@@ -1,10 +1,17 @@
 <div class="pole" ng-controller="gameController">
 
 
-	<button ng-click="start()">Начать игру</button>
+	<button class="button__start" ng-click="start()">Начать игру</button>
 
 	<div class="ball" style="left:{{50+ballPos.X}}%;top:{{20+ballPos.Y}}%">
-	<img class="ball" src="pic/{{pokemon.image}}"> </div>
+	<img class="ball" src="pic/{{pokemon.image}}" ng-click="next()"> </div>
 
 	
+	<span class="param">
+	Level:{{level}}<br>
+	Pokemon:{{pokemon.name}}<br>
+	Health:{{health}}<br>
+	</span>
+
 </div>
+
